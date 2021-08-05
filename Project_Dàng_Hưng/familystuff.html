@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Đồ dùng gia đình</title>
+	<link rel="stylesheet" href="font_awesome/css/all.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/products.css">
+	<link rel="stylesheet" href="css/nav_mobile.css">
+	<link rel="stylesheet" href="css/responsive.css">	
+</head>
+<body>
+	<div class="main grid wide">
+		<header class="header">
+			<div class="hotline row">
+				<div class="img_logo_phone l-12 m-12 c-12">
+					<div class="logo_mobile_tablet hide_on_pc">
+						<a href="index.html"><img class="hide_on_pc" src="images/logoproject2.png" height="40" alt=""></a>
+					</div>	
+					<div class="sdt">
+						<p><a href=""><i class="fas fa-phone-alt icon_phone_home"></i>Hotline:0962715930</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="logo_search_icon-top row">
+				<div class="logo_img-top l-4 m-0 c-0">
+					<a href="index.html"><img src="images/logoproject2.png" alt=""></a>
+				</div>
+				<div class="search_incon-top l-8 m-12 c-12">
+					<ul>
+						<li class="icon_danh_muc hide_on_pc"><i class="fas fa-bars " onclick="show_nav()" ></i>
+							<div class="nav_mobile" id="nav_mobile" >
+								<div class="overlay_nav_mobile"></div>
+								<div>
+									<ul>
+										<li class="close_nav"><i class="fas fa-times" onclick="close_nav()"></i></li>
+										<li><a href="index.html"><i class="fas fa-home"></i>Trang chủ</a></li>
+										<li><a href="milk.html"><i class="fas fa-baby"></i>Sữa cho bé</a></li>
+										<li><a href="diaper.html"><i class="fas fa-baby"></i>Tã cho bé</a></li>
+										<li><a href="playstuff.html"><i class="fas fa-baby"></i>Đồ chơi cho bé</a></li>
+										<li><a href="fashion.html"><i class="fas fa-baby"></i>Thời trang cho bé</a></li>
+										<li><a href="andam.html"><i class="fas fa-baby"></i>Thực phẩm ăn dặm</a></li>
+										<li><a href="mamastuff.html"><i class="fas fa-baby"></i>Đồ dùng cho mẹ</a></li>
+										<li><a href="familystuff.html"><i class="fas fa-baby"></i>Đồ dùng gia đình</a></li>
+										<li><a href="login.html"><i class="fas fa-user"></i>Đăng nhập</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="search">
+							<input type="text" placeholder="Tìm kiếm...">
+							<a href=""><i class=" icon1 fas fa-search"></i></a>
+						</li>
+						<li class="notification">
+							
+							<a href=""><span class="hide_on_mobile_tablet">Thông báo</span><i class=" icon2 far fa-bell"></i></a>
+						</li>
+						<li class="cart_icon">
+							
+							<a href="cart.html"><span class="hide_on_mobile_tablet">Giỏ hàng</span><i class=" icon2 fas fa-shopping-cart"></i></a>
+						</li>
+						<li class="login js_login hide_on_mobile_tablet" onclick="open_modal()">
+							<a href="login.html">Đăng nhập<i class=" icon2 far fa-user"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>	
+		</header>
+		<main class="container_product">
+			<div class="dm row  hide_on_mobile_tablet">
+				<div class=" nav_products col l-12 m-12 c-12">
+					<div class="left_nav">
+						<p class="danhmuc"><i class="fas fa-bars "></i>DANH MỤC SẢN PHẨM</p>
+						<div class="menu_nav">
+							<ul class="menu_main_products">
+							<li><a href="milk.html"><i class="fas fa-baby"></i>Sữa cho bé</a>
+								<ul class="sub_menu_products">
+									<li><a href="milk.html">Sữa Meiji</a></li>
+									<li><a href="milk.html">Sữa Morinaga</a></li>
+									<li><a href="milk.html">Sữa Glico</a></li>
+									<li><a href="milk.html">Sữa Abbott</a></li>
+									<li><a href="milk.html">Sữa Nan</a></li>
+									<li><a href="milk.html">Sữa Aptamil</a></li>
+									<li><a href="milk.html">Sữa Enfa</a></li>
+									<li><a href="milk.html">Sữa Friso</a></li>
+								</ul>
+							</li>
+							<li><a href="andam.html"><i class="fas fa-baby"></i>Bột ăn dặm cho bé</a>
+								<ul class="sub_menu_products">
+									<li><a href="andam.html">Bột ăn dặm Gerber</a></li>
+									<li><a href="andam.html">Bột Heinz</a></li>
+									<li><a href="andam.html">Bột ăn dặm HiPP</a></li>
+									<li><a href="andam.html">Bột ăn dặm Cerelac</a></li>
+									<li><a href="andam.html">Bánh ăn dặm Pigeon</a></li>
+									<li><a href="andam.html">Bánh ăn dặm Gerber</a></li>
+								</ul>
+
+							</li>
+							<li><a href="diaper.html"><i class="fas fa-baby"></i>Bỉm tã cho bé</a>
+								<ul class="sub_menu_products">
+									<li><a href="diaper.html">Bỉm Merries - Tã Merries</a></li>
+									<li><a href="diaper.html">Bỉm Moony - Tã Moony</a></li>
+									<li><a href="diaper.html">Bỉm Huggies - Tã Huggies</a></li>
+									<li><a href="diaper.html">Bỉm Bobby - Tã Bobby</a></li>
+									<li><a href="diaper.html">Bỉm Goon - Tã Goon</a></li>
+									<li><a href="diaper.html">Bỉm Amico - Tã Amico</a></li>
+									<li><a href="diaper.html">Bỉm Unidry - Tã Unidry</a></li>
+									<li><a href="diaper.html">Bỉm Goldgi - Tã Goldgi</a></li>
+								</ul>
+							</li>
+							<li><a href="fashion.html"><i class="fas fa-baby"></i>Thời trang cho bé</a>
+								<ul class="sub_menu_products">
+									<li><a href="fashion.html">Đồ chơi khác</a></li>
+									<li><a href="fashion.html">Thời trang bé gái</a></li>
+									<li><a href="fashion.html">Thời trang bé trai</a></li>
+									<li><a href="fashion.html">Giày - Dép trẻ em</a></li>
+									<li><a href="fashion.html">Balo cho bé</a></li>
+									<li><a href="fashion.html">Phụ kiện thời trang</a></li>
+								</ul>
+							</li>
+							<li><a href="playstuff.html"><i class="fas fa-baby"></i>Đồ chơi cho bé</a>
+								<ul class="sub_menu_products">
+									<li><a href="playstuff.html">Đồ chơi cho trẻ sơ sinh</a></li>
+									<li><a href="playstuff.html">Đồ chơi thông minh</a></li>
+									<li><a href="playstuff.html">Đồ chơi xếp hình, lắp ráp</a></li>
+									<li><a href="playstuff.html">Đồ chơi vận động</a></li>
+									<li><a href="playstuff.html">Đồ chơi gỗ</a></li>
+									<li><a href="playstuff.html">Đồ chơi mô hình, điều khiển</a></li>
+									<li><a href="playstuff.html">Đồ chơi khác</a></li>
+								</ul>
+							</li>
+							<li><a href="mamastuff.html"><i class="fas fa-baby"></i>Đồ dùng cho mẹ</a>
+								<ul class="sub_menu_products">           
+									<li><a href="mamastuff.html">Sữa bà bầu</a></li>
+									<li><a href="mamastuff.html">Máy hút sữa - túi trữ sữa</a></li>
+									<li><a href="mamastuff.html">Dinh dưỡng cho mẹ</a></li>
+									<li><a href="mamastuff.html">Sữa cho người lớn</a></li>
+									<li><a href="mamastuff.html">Đồ dùng cho mẹ khác</a></li>
+									<li><a href="mamastuff.html">Thời trang cho mẹ</a></li>
+								</ul>
+							</li>
+							<li><a href="familystuff.html"><i class="fas fa-baby"></i>Đồ dùng gia đình</a>
+								<ul class="sub_menu_products">
+									<li><a href="familystuff.html">Trang trí nhà cửa</a></li>
+									<li><a href="familystuff.html">Đồ gia dụng</a></li>
+									<li><a href="familystuff.html">Đồ dùng trong nhà khác</a></li>
+									<li><a href="familystuff.html">Tủ nhựa Duy Tân</a></li>
+								</ul>
+							</li>
+							</ul>
+						</div>	
+					</div>
+					<div class="right_nav">
+						<a href="index.html"><span>Trang chủ</span></a>
+						<i class="fas fa-chevron-right"></i>
+						<a href="fashion.html"><span>Đồ dùng gia đình</span></a>
+					</div>
+					
+				</div>				
+			</div>	
+			<div class="banner_product" class="">
+				<div class="col l-12 m-12 c-12">
+					<img src="https://bibomart.com.vn/resize.1170x-/media/wysiwyg/bibomart_category/ngay-vang-giam-10-1170.jpg" alt="">
+				</div>	
+			</div>
+			<div class="main_container row">
+				<div class="l-12 m-12 c-12"><h4>CÁC SẢN PHẨM NỔI BẬT</h4></div>	
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="">Set ghế thư giãn bập bênh</a></h5>
+					<a href="#"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/g/h/ghe-ngoi-thu-gian-kem-ghe-ke-chan.jpg" alt="" class="img-responsive"></a>
+					<h3>8.579.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>		
+				</div>
+			
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="">Đèn bắt muỗi mini Ranvoo</a></h5>
+					<a href="pediasure.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/m/a/may-duoi-muoi.jpg" alt="" class="img-responsive" ></a>
+					<h3>749.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+			
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="glico.html">Hộp nhựa đa năng xếp gọn</a></h5>
+					<a href="glico.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/h/o/hop-nhua-da-nang-xep-gon-6.jpg" alt="" class="img-responsive"></a>
+					<h3>269.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+		
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="similac.html">Ghế kê chân toilet đa năng</a></h5>
+					<a href="similac.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/g/h/ghe-ke-chan-toilet-da-nang.jpg" alt="" class="img-responsive"></a>
+					<h3>119.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+			
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="huggies.html">Máy phun sương tạo ẩm đôi</a></h5>
+					<a href="huggies.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/m/a/may-phun-suong-tao-am-doi-kolead-2.jpg" alt="" class="img-responsive" ></a>
+					<h3>299.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="bobby.html">Quạt sạc mini kẹp bàn 360 độg</a></h5>
+					<a href="bobby.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/q/u/quat-sac-mini-kep-ban.jpg" alt="" class="img-responsive"></a>
+					<h3>139.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="goon.html">Máy lọc không khí Air Shot</a></h5>
+					<a href="goon.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/m/a/may-loc-khong-khi-airshot-mau-trang.jpg" alt="" class="img-responsive"></a>
+					<h3>1.750.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="merries.html">Đồng hồ lúc lắc năng lượng</a></h5>
+					<a href="merries.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/h/t/httpsmedia.bibomart.netubbmproduct201612161712dong-ho-luc-lac-nang-luong-hello-kitty-115399-2_1.jpg" alt="" class="img-responsive"></a>
+					<h3>60.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="ao_thun_be_trai_01.html">Đồng hồ lúc lắc năng lượng</a></h5>
+					<a href="dam_be_gai_01.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/h/t/httpsmedia.bibomart.netubbmproduct201612161610dong-ho-luc-lac-nang-luong-hello-kitty-115397_1.jpg" alt="" class="img-responsive"></a>
+					<h3>68.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="dam_be_gai_02.html">Tủ nhựa Duy Tân Tabi L 5 tầng</a></h5>
+					<a href="dam_be_gai_02.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/h/t/httpsmedia.bibomart.netubbmproduct201601182034112508-tabi-l-hong-6-ngan_1.jpg" alt="" class="img-responsive" ></a>
+					<h3>1.730.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="ao_thun_be_trai_01.html">Mắc dàn phơi quần áo Inox</a></h5>
+					<a href="ao_thun_be_trai_01.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/h/t/httpsmedia.bibomart.netubbmproduct201905061948moc-quan-ao-2_1.jpg" alt="" class="img-responsive"></a>
+					<h3>189.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="ao_thun_be_trai_02.html">Máy tạo độ ẩm Fatzbaby</a></h5>
+					<a href="ao_thun_be_trai_02.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/h/t/httpsmedia.bibomart.netubbmproduct201703131611may-tao-am-fatzbaby-108417-2_1.jpg" alt="" class="img-responsive"></a>
+					<h3>900.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+			</div>
+		</main>
+		<footer class="footer row">
+				<div class="info">
+					<img src="images/logoproject2.png" alt="">
+				</div>
+				<div class="iconfooter">
+					<ul>
+						<li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+						<li><a href=""><i class="fab fa-google-plus-square"></i>	</a></li>
+						<li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+					</ul>		
+				</div>
+		</footer>
+	</div>
+	<!-- End page main -->
+	<script src="js/show_nav_mobile.js"></script>
+</body>
+</html>	

@@ -1,0 +1,65 @@
+.icon_danh_muc{
+	position: relative;
+}
+/* .overlay_nav_mobile{
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+	background-color: rgba(0, 0, 0, 0.5);
+
+} */
+.nav_mobile{
+	position: absolute;
+	z-index: 10000;
+	min-height: 450px;
+	width: 250px;
+	background-color: #fff;
+	box-shadow: 3px 3px 3px 3px  #bfbfbf;
+	top: -12px;
+	animation:ani_nav ease 1s ;
+	display: none;
+
+}
+.nav_mobile ul{
+	display: inline-block;
+	padding-left: 40px;
+	font-size: 17px;
+}
+.nav_mobile ul li{
+	padding:10px 0px;
+}
+.nav_mobile ul li .fa-home{
+	padding-right: 5px;
+}
+.nav_mobile ul .close_nav{
+	padding: 0px;
+}
+.nav_mobile ul li .fa-times{
+	margin-left: 175px;
+	font-size: 20px;
+	padding: 10px 10px;
+	color: #737373;
+}
+.nav_mobile ul li .fa-baby, .fa-user {
+	padding-right: 10px;
+	opacity: 0.6;
+}
+
+.nav_mobile ul li a{
+	color:#404040;
+	display: block;
+	
+}
+.nav_mobile ul li a:hover{
+	color: #ff6699;
+}
+@keyframes ani_nav {
+	from {
+		transform: translateX(-300px);
+	}
+	to {
+		transform: translateX(0px);
+	}
+}

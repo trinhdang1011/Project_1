@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Thời trang cho bé</title>
+	<link rel="stylesheet" href="font_awesome/css/all.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/products.css">
+	<link rel="stylesheet" href="css/nav_mobile.css">
+	<link rel="stylesheet" href="css/responsive.css">	
+</head>
+<body>
+	<div class="main grid wide">
+		<header class="header">
+			<div class="hotline row">
+				<div class="img_logo_phone l-12 m-12 c-12">
+					<div class="logo_mobile_tablet hide_on_pc">
+						<a href="index.html"><img class="hide_on_pc" src="images/logoproject2.png" height="40" alt=""></a>
+					</div>	
+					<div class="sdt">
+						<p><a href=""><i class="fas fa-phone-alt icon_phone_home"></i>Hotline:0962715930</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="logo_search_icon-top row">
+				<div class="logo_img-top l-4 m-0 c-0">
+					<a href="index.html"><img src="images/logoproject2.png" alt=""></a>
+				</div>
+				<div class="search_incon-top l-8 m-12 c-12">
+					<ul>
+						<li class="icon_danh_muc hide_on_pc"><i class="fas fa-bars " onclick="show_nav()" ></i>
+							<div class="nav_mobile" id="nav_mobile" >
+								<div class="overlay_nav_mobile"></div>
+								<div>
+									<ul>
+										<li class="close_nav"><i class="fas fa-times" onclick="close_nav()"></i></li>
+										<li><a href="index.html"><i class="fas fa-home"></i>Trang chủ</a></li>
+										<li><a href="milk.html"><i class="fas fa-baby"></i>Sữa cho bé</a></li>
+										<li><a href="diaper.html"><i class="fas fa-baby"></i>Tã cho bé</a></li>
+										<li><a href="playstuff.html"><i class="fas fa-baby"></i>Đồ chơi cho bé</a></li>
+										<li><a href="fashion.html"><i class="fas fa-baby"></i>Thời trang cho bé</a></li>
+										<li><a href="andam.html"><i class="fas fa-baby"></i>Thực phẩm ăn dặm</a></li>
+										<li><a href="mamastuff.html"><i class="fas fa-baby"></i>Đồ dùng cho mẹ</a></li>
+										<li><a href="familystuff.html"><i class="fas fa-baby"></i>Đồ dùng gia đình</a></li>
+										<li><a href="login.html"><i class="fas fa-user"></i>Đăng nhập</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="search">
+							<input type="text" placeholder="Tìm kiếm...">
+							<a href=""><i class=" icon1 fas fa-search"></i></a>
+						</li>
+						<li class="notification">
+							
+							<a href=""><span class="hide_on_mobile_tablet">Thông báo</span><i class=" icon2 far fa-bell"></i></a>
+						</li>
+						<li class="cart_icon">
+							
+							<a href="cart.html"><span class="hide_on_mobile_tablet">Giỏ hàng</span><i class=" icon2 fas fa-shopping-cart"></i></a>
+						</li>
+						<li class="login js_login hide_on_mobile_tablet" onclick="open_modal()">
+							<a href="login.html">Đăng nhập<i class=" icon2 far fa-user"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>	
+		</header>
+		<main class="container_product">
+			<div class="dm row  hide_on_mobile_tablet">
+				<div class=" nav_products col l-12 m-12 c-12">
+					<div class="left_nav">
+						<p class="danhmuc"><i class="fas fa-bars "></i>DANH MỤC SẢN PHẨM</p>
+						<div class="menu_nav">
+							<ul class="menu_main_products">
+							<li><a href="milk.html"><i class="fas fa-baby"></i>Sữa cho bé</a>
+								<ul class="sub_menu_products">
+									<li><a href="milk.html">Sữa Meiji</a></li>
+									<li><a href="milk.html">Sữa Morinaga</a></li>
+									<li><a href="milk.html">Sữa Glico</a></li>
+									<li><a href="milk.html">Sữa Abbott</a></li>
+									<li><a href="milk.html">Sữa Nan</a></li>
+									<li><a href="milk.html">Sữa Aptamil</a></li>
+									<li><a href="milk.html">Sữa Enfa</a></li>
+									<li><a href="milk.html">Sữa Friso</a></li>
+								</ul>
+							</li>
+							<li><a href="andam.html"><i class="fas fa-baby"></i>Bột ăn dặm cho bé</a>
+								<ul class="sub_menu_products">
+									<li><a href="andam.html">Bột ăn dặm Gerber</a></li>
+									<li><a href="andam.html">Bột Heinz</a></li>
+									<li><a href="andam.html">Bột ăn dặm HiPP</a></li>
+									<li><a href="andam.html">Bột ăn dặm Cerelac</a></li>
+									<li><a href="andam.html">Bánh ăn dặm Pigeon</a></li>
+									<li><a href="andam.html">Bánh ăn dặm Gerber</a></li>
+								</ul>
+
+							</li>
+							<li><a href="diaper.html"><i class="fas fa-baby"></i>Bỉm tã cho bé</a>
+								<ul class="sub_menu_products">
+									<li><a href="diaper.html">Bỉm Merries - Tã Merries</a></li>
+									<li><a href="diaper.html">Bỉm Moony - Tã Moony</a></li>
+									<li><a href="diaper.html">Bỉm Huggies - Tã Huggies</a></li>
+									<li><a href="diaper.html">Bỉm Bobby - Tã Bobby</a></li>
+									<li><a href="diaper.html">Bỉm Goon - Tã Goon</a></li>
+									<li><a href="diaper.html">Bỉm Amico - Tã Amico</a></li>
+									<li><a href="diaper.html">Bỉm Unidry - Tã Unidry</a></li>
+									<li><a href="diaper.html">Bỉm Goldgi - Tã Goldgi</a></li>
+								</ul>
+							</li>
+							<li><a href="fashion.html"><i class="fas fa-baby"></i>Thời trang cho bé</a>
+								<ul class="sub_menu_products">
+									<li><a href="fashion.html">Đồ chơi khác</a></li>
+									<li><a href="fashion.html">Thời trang bé gái</a></li>
+									<li><a href="fashion.html">Thời trang bé trai</a></li>
+									<li><a href="fashion.html">Giày - Dép trẻ em</a></li>
+									<li><a href="fashion.html">Balo cho bé</a></li>
+									<li><a href="fashion.html">Phụ kiện thời trang</a></li>
+								</ul>
+							</li>
+							<li><a href="playstuff.html"><i class="fas fa-baby"></i>Đồ chơi cho bé</a>
+								<ul class="sub_menu_products">
+									<li><a href="playstuff.html">Đồ chơi cho trẻ sơ sinh</a></li>
+									<li><a href="playstuff.html">Đồ chơi thông minh</a></li>
+									<li><a href="playstuff.html">Đồ chơi xếp hình, lắp ráp</a></li>
+									<li><a href="playstuff.html">Đồ chơi vận động</a></li>
+									<li><a href="playstuff.html">Đồ chơi gỗ</a></li>
+									<li><a href="playstuff.html">Đồ chơi mô hình, điều khiển</a></li>
+									<li><a href="playstuff.html">Đồ chơi khác</a></li>
+								</ul>
+							</li>
+							<li><a href="mamastuff.html"><i class="fas fa-baby"></i>Đồ dùng cho mẹ</a>
+								<ul class="sub_menu_products">           
+									<li><a href="mamastuff.html">Sữa bà bầu</a></li>
+									<li><a href="mamastuff.html">Máy hút sữa - túi trữ sữa</a></li>
+									<li><a href="mamastuff.html">Dinh dưỡng cho mẹ</a></li>
+									<li><a href="mamastuff.html">Sữa cho người lớn</a></li>
+									<li><a href="mamastuff.html">Đồ dùng cho mẹ khác</a></li>
+									<li><a href="mamastuff.html">Thời trang cho mẹ</a></li>
+								</ul>
+							</li>
+							<li><a href="familystuff.html"><i class="fas fa-baby"></i>Đồ dùng gia đình</a>
+								<ul class="sub_menu_products">
+									<li><a href="familystuff.html">Trang trí nhà cửa</a></li>
+									<li><a href="familystuff.html">Đồ gia dụng</a></li>
+									<li><a href="familystuff.html">Đồ dùng trong nhà khác</a></li>
+									<li><a href="familystuff.html">Tủ nhựa Duy Tân</a></li>
+								</ul>
+							</li>
+							</ul>
+						</div>	
+					</div>
+					<div class="right_nav">
+						<a href="index.html"><span>Trang chủ</span></a>
+						<i class="fas fa-chevron-right"></i>
+						<a href="fashion.html"><span>Thời trang cho bé</span></a>
+					</div>
+					
+				</div>				
+			</div>	
+			<div class="banner_product" class="">
+				<div class="col l-12 m-12 c-12">
+					<img src="https://bibomart.com.vn/resize.1170x-/media/wysiwyg/bibomart_landingpage/1170x150_1.jpg" alt="">
+				</div>	
+			</div>
+			<div class="main_container row">
+				<div class="l-12 m-12 c-12"><h4>CÁC SẢN PHẨM NỔI BẬT</h4></div>	
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="">Áo hai dây bé gái Chong Chóng in hình vàng</a></h5>
+					<a href="#"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/a/o/ao-hai-day-bg-chong-chong-144a-in-hinh-vang-128969-11.jpg" alt="" class="img-responsive"></a>
+					<h3>119.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>		
+				</div>
+			
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="">Áo hai dây bé gái Chong Chóng cườm lật hoa hồng</a></h5>
+					<a href="pediasure.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/a/o/ao-hai-day-bg-chong-chong-c30-cuom-lat-hoa-hong-128032-11.jpg" alt="" class="img-responsive" ></a>
+					<h3>99.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+			
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="glico.html">Áo hai dây bé gái Chong Chóng cườm lật hoa xanh</a></h5>
+					<a href="glico.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/a/o/ao-hai-day-bg-chong-chong-c30-cuom-lat-hoa-xanh-128040-1_copy.jpg" alt="" class="img-responsive"></a>
+					<h3>99.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+		
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="similac.html">	Áo hai dây Chong Chóng cườm lật ngựa pony</a></h5>
+					<a href="similac.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/a/o/ao-hai-day-chong-chong-cuom-lat-ngua-pony-4_copy.jpg" alt="" class="img-responsive"></a>
+					<h3>99.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+			
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="huggies.html">Áo sát nách Chong Chóng Úm ba la đính cườm lật khủng long</a></h5>
+					<a href="huggies.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/a/o/ao-sat-nach-bt-cuom-lat-khung-long-trang-127496-11.jpg" alt="" class="img-responsive" ></a>
+					<h3>89.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="bobby.html">Áo sát nách bé trai Chong Chóng cườm lật tên lửa</a></h5>
+					<a href="bobby.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/a/o/ao-sn-bt-chong-chong-c30-cuom-lat-ten-lua-129367-111.jpg" alt="" class="img-responsive"></a>
+					<h3>89.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="goon.html">Áo sát nách Chong Chóng cườm lật Little Tiger</a></h5>
+					<a href="goon.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/a/o/ao-sat-nach-chong-chong-cuom-lat-ho-cam-128013-1.jpg" alt="" class="img-responsive"></a>
+					<h3>89.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="merries.html">Áo sát nách bé trai Chong Chóng cườm lật sao thổ xanh</a></h5>
+					<a href="merries.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/a/o/ao-sn-bt-chong-chong-c30-cuom-lat-sao-tho-xanh_copy.jpg" alt="" class="img-responsive"></a>
+					<h3>89.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="ao_thun_be_trai_01.html">Váy tutu kim tuyến Bibo's Star hồng</a></h5>
+					<a href="dam_be_gai_01.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/v/a/vay-tutu-bg-bibos-bst-star-hong-127356-1.jpg" alt="" class="img-responsive"></a>
+					<h3>169.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="dam_be_gai_02.html">Váy sát nách bé gái Chong Chóng phối tutu</a></h5>
+					<a href="dam_be_gai_02.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/v/a/vay-sn-bg-phoi-tutu-avatar_copy.jpg" alt="" class="img-responsive" ></a>
+					<h3>189.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="ao_thun_be_trai_01.html">Váy tutu kim tuyến Bibos Star xanh/ghi</a></h5>
+					<a href="ao_thun_be_trai_01.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/v/a/vay-tutu-bg-bibos-bst-star-ghi-xam-127368-17.jpg" alt="" class="img-responsive"></a>
+					<h3>169.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="ao_thun_be_trai_02.html">Body tam giác bé trai Bibos bổ trụ</a></h5>
+					<a href="ao_thun_be_trai_02.html"><img src="https://bibomart.com.vn/resize.380x-/media/catalog/product/b/o/body--tam-giac-bt-bibos-hy97831-phoi-tay-trang--nb-10.jpg" alt="" class="img-responsive"></a>
+					<h3>129.000 ₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+			</div>
+		</main>
+		<footer class="footer row">
+				<div class="info">
+					<img src="images/logoproject2.png" alt="">
+				</div>
+				<div class="iconfooter">
+					<ul>
+						<li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+						<li><a href=""><i class="fab fa-google-plus-square"></i>	</a></li>
+						<li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+					</ul>		
+				</div>
+		</footer>
+	</div>
+	<!-- End page main -->
+	<script src="js/show_nav_mobile.js"></script>
+</body>
+</html>	

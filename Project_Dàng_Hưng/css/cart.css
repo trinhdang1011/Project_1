@@ -1,0 +1,101 @@
+.container_cart{
+	background-color: #fff;
+	max-width: 1200px;
+	margin: auto;
+	min-height: 600px;
+	margin-top: 3px;
+}
+.left_cart .fa-shopping-cart{
+	margin-right: 10px;
+}
+
+.left_cart h3{
+	color:#ff8566;
+	font-size: 30px;
+	padding: 10px 20px;
+	font-size: 26px;
+	text-align: center;	
+}
+table{
+	width: 95%;
+	border-collapse: collapse;
+	margin: 10px 0px 0px 10px;
+	border-radius: 5px;
+}
+table th,td{
+	
+	text-align: center;
+	color: #737373;
+	font-size: 14px;
+	padding: 10px 10px;
+}
+table .title-tong{
+	font-size: 20px;
+	text-align: left;
+}
+.quantity_cart input{
+	width: 40px;
+	padding-left: 5px;
+}
+.remove_items{
+	padding: 5px 10px;
+}
+.remove_items:hover{
+	color:  #ff8080;
+	cursor: pointer;
+}
+.right_cart h3{
+	color: #ff8566;
+	font-size: 30px;
+	padding: 10px 20px;
+	font-size: 26px;
+	text-align: center;	
+}
+.right_cart{
+	text-align: center;
+	border-left: 1px solid  #cccccc;
+}
+.right_cart .fa-truck{
+	margin-right: 10px;
+}.right_cart div input{
+	width: 80%;
+	height: 40px;
+	margin-bottom: 0px;
+	border-radius: 5px;
+	border: 1px solid pink;
+	padding-left: 5px;
+	outline: none;
+}
+.right_cart button{
+	border-radius: 5px;
+	border: none;
+	height: 30px;
+	width: 40%;
+	background-color: #ffb3b3;
+	margin-bottom: 10px;
+}
+.right_cart button a{
+	text-decoration: none;
+	color:black;
+}
+.right_cart button:hover{
+	background-color: #ff8080;
+}
+.right_cart div p{
+	text-align: left;
+	margin-left: 55px;
+	margin-bottom: 5px;
+	font-size: 13px;
+	color: #666666;
+}
+.right_cart h6{
+	margin: 0px;
+	padding-top: 10px;
+	margin-left: 40px;
+	text-align: left;
+	padding-left: 30px;
+	color: red;
+}
+.validate{
+	display:block;
+}

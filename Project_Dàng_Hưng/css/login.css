@@ -1,0 +1,99 @@
+.header .hotline, .logo_search_icon-top{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.main_login{
+	background-color: #fff;
+}
+.container_login{
+	padding-top: 50px;
+	min-height: 600px;
+	color: #595959;
+}
+.login_left{
+
+	text-align: center;
+}
+.login_left h3{
+	text-align: center;
+	color: #8c8c8c;
+}
+.login_left p{
+	margin: 35px 0px 10px 60px;
+	font-size: 13px;
+	text-align: left;
+}
+.login_left input{
+	width: 80%;
+	height: 40px;
+	border: 1px solid pink;
+	border-radius: 5px;
+	padding-left: 10px;
+	outline: none;
+}
+.login_left button{
+	margin-top: 30px;
+	height: 30px;
+	width: 80%;
+	border: none;
+	border-radius: 20px;
+	font-size: 14px;
+}
+.login_left button:hover{
+	background-color: #ffb3b3;
+}
+.login_right{
+	text-align: center;
+}
+.login_right h3{
+	text-align: center;
+	color: #8c8c8c;
+}
+.login_right .facebook{
+	height: 40px;
+	line-height: 40px;
+	background-color: #4267b2;
+	border-radius: 20px;
+	margin: 40px 0px 30px 0px;
+	width: 80%;
+	display: inline-block;
+
+}
+.login_right a{
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	height: 40px;
+	font-size: 13px;
+	width: 100%;
+}
+.login_right .google{
+	background-color: #ff8080;
+	height: 40px;
+	line-height: 40px;	
+	border-radius: 20px;
+	width: 80%;
+	display: inline-block;
+}
+.login_right a i{
+	font-size: 24px;
+	vertical-align: middle;
+	margin:0px 15px 5px 0px;
+}
+.fa-google-plus-g{
+	color: #fff;
+}
+.sign_up{
+	font-size: 13px;
+	margin-top: 30px;
+}
+.sign_up a{
+	color:#4d79ff ;
+	width: 15%;
+}
+.footer{
+	max-width: 1200px;
+	margin: auto;
+	margin-top: 1px;
+}

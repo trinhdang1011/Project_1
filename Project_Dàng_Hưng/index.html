@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>VBaBy Shop mẹ và bé online</title>
+	<link rel="stylesheet" href="font_awesome/css/all.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/nav_mobile.css">
+	<link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+	<div class="main grid wide">
+		<header class="header">
+			<div class="hotline row">
+				<div class="img_logo_phone l-12 m-12 c-12">
+					<div class="logo_mobile_tablet hide_on_pc">
+						<img class="hide_on_pc" src="images/logoproject2.png" height="40" alt="">
+					</div>	
+					<div class="sdt">
+						<p><a href=""><i class="fas fa-phone-alt icon_phone_home"></i>Hotline:0962715930</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="logo_search_icon-top row">
+				<div class="logo_img-top l-4 m-0 c-0">
+					<a href=""><img src="images/logoproject2.png" alt=""></a>
+				</div>
+				<div class="search_incon-top l-8 m-12 c-12">
+					<ul>
+						<li class="icon_danh_muc hide_on_pc"><i class="fas fa-bars " onclick="show_nav()" ></i>
+							<div class="nav_mobile" id="nav_mobile" >
+								<div class="overlay_nav_mobile"></div>
+								<div>
+									<ul>
+										<li class="close_nav"><i class="fas fa-times" onclick="close_nav()"></i></li>
+										<li><a href="index.html"><i class="fas fa-home"></i>Trang chủ</a></li>
+										<li><a href="milk.html"><i class="fas fa-baby"></i>Sữa cho bé</a></li>
+										<li><a href="diaper.html"><i class="fas fa-baby"></i>Tã cho bé</a></li>
+										<li><a href="playstuff.html"><i class="fas fa-baby"></i>Đồ chơi cho bé</a></li>
+										<li><a href="fashion.html"><i class="fas fa-baby"></i>Thời trang cho bé</a></li>
+										<li><a href="andam.html"><i class="fas fa-baby"></i>Thực phẩm ăn dặm</a></li>
+										<li><a href="mamastuff.html"><i class="fas fa-baby"></i>Đồ dùng cho mẹ</a></li>
+										<li><a href="familystuff.html"><i class="fas fa-baby"></i>Đồ dùng gia đình</a></li>
+										<li><a href="login.html"><i class="fas fa-user"></i>Đăng nhập</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="search">
+							<input type="text" placeholder="Tìm kiếm...">
+							<a href=""><i class=" icon1 fas fa-search"></i></a>
+						</li>
+						<li class="notification">
+							
+							<a href=""><span class="hide_on_mobile_tablet">Thông báo</span><i class=" icon2 far fa-bell"></i></a>
+						</li>
+						<li class="cart_icon">
+							
+							<a href="cart.html"><span class="hide_on_mobile_tablet">Giỏ hàng</span><i class=" icon2 fas fa-shopping-cart"></i></a>
+						</li>
+						<li class="login js_login hide_on_mobile_tablet" onclick="open_modal()">
+							<a href="login.html">Đăng nhập<i class=" icon2 far fa-user"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>	
+		</header>
+		<main class="container">
+			<div class="banner row">
+				<div class="banner_left hide_on_mobile_tablet l-4 m-12 c-12">
+					<p><i class="fas fa-bars "></i>DANH MỤC SẢN PHẨM</p>
+					<ul class="menu_main">
+						<li><a href="milk.html"><i class="fas fa-baby"></i>Sữa cho bé</a>
+							<ul class="sub_menu">
+								<li><a href="milk.html">Sữa Meiji</a></li>
+								<li><a href="milk.html">Sữa Morinaga</a></li>
+								<li><a href="milk.html">Sữa Glico</a></li>
+								<li><a href="milk.html">Sữa Abbott</a></li>
+								<li><a href="milk.html">Sữa Nan</a></li>
+								<li><a href="milk.html">Sữa Aptamil</a></li>
+								<li><a href="milk.html">Sữa Enfa</a></li>
+								<li><a href="milk.html">Sữa Friso</a></li>
+							</ul>
+						</li>
+						<li><a href="andam.html"><i class="fas fa-baby"></i>Bột ăn dặm cho bé</a>
+							<ul class="sub_menu">
+								<li><a href="andam.html">Bột ăn dặm Gerber</a></li>
+								<li><a href="andam.html">Bột Heinz</a></li>
+								<li><a href="andam.html">Bột ăn dặm HiPP</a></li>
+								<li><a href="andam.html">Bột ăn dặm Cerelac</a></li>
+								<li><a href="andam.html">Bánh ăn dặm Pigeon</a></li>
+								<li><a href="andam.html">Bánh ăn dặm Gerber</a></li>
+							</ul>
+
+						</li>
+						<li><a href="diaper.html"><i class="fas fa-baby"></i>Bỉm tã cho bé</a>
+							<ul class="sub_menu">
+								<li><a href="diaper.html">Bỉm Merries - Tã Merries</a></li>
+								<li><a href="diaper.html">Bỉm Moony - Tã Moony</a></li>
+								<li><a href="diaper.html">Bỉm Huggies - Tã Huggies</a></li>
+								<li><a href="diaper.html">Bỉm Bobby - Tã Bobby</a></li>
+								<li><a href="diaper.html">Bỉm Goon - Tã Goon</a></li>
+								<li><a href="diaper.html">Bỉm Amico - Tã Amico</a></li>
+								<li><a href="diaper.html">Bỉm Unidry - Tã Unidry</a></li>
+								<li><a href="diaper.html">Bỉm Goldgi - Tã Goldgi</a></li>
+							</ul>
+						</li>
+						<li><a href="fashion.html"><i class="fas fa-baby"></i>Thời trang cho bé</a>
+							<ul class="sub_menu">
+								<li><a href="fashion.html">Đồ chơi khác</a></li>
+								<li><a href="fashion.html">Thời trang bé gái</a></li>
+								<li><a href="fashion.html">Thời trang bé trai</a></li>
+								<li><a href="fashion.html">Giày - Dép trẻ em</a></li>
+								<li><a href="fashion.html">Balo cho bé</a></li>
+								<li><a href="fashion.html">Phụ kiện thời trang</a></li>
+							</ul>
+						</li>
+						<li><a href="playstuff.html"><i class="fas fa-baby"></i>Đồ chơi cho bé</a>
+							<ul class="sub_menu">
+								<li><a href="playstuff.html">Đồ chơi cho trẻ sơ sinh</a></li>
+								<li><a href="playstuff.html">Đồ chơi thông minh</a></li>
+								<li><a href="playstuff.html">Đồ chơi xếp hình, lắp ráp</a></li>
+								<li><a href="playstuff.html">Đồ chơi vận động</a></li>
+								<li><a href="playstuff.html">Đồ chơi gỗ</a></li>
+								<li><a href="playstuff.html">Đồ chơi mô hình, điều khiển</a></li>
+								<li><a href="playstuff.html">Đồ chơi khác</a></li>
+							</ul>
+						</li>
+						<li><a href="mamastuff.html"><i class="fas fa-baby"></i>Đồ dùng cho mẹ</a>
+							<ul class="sub_menu">           
+								<li><a href="mamastuff.html">Sữa bà bầu</a></li>
+								<li><a href="mamastuff.html">Máy hút sữa - túi trữ sữa</a></li>
+								<li><a href="mamastuff.html">Dinh dưỡng cho mẹ</a></li>
+								<li><a href="mamastuff.html">Sữa cho người lớn</a></li>
+								<li><a href="mamastuff.html">Đồ dùng cho mẹ khác</a></li>
+								<li><a href="mamastuff.html">Thời trang cho mẹ</a></li>
+							</ul>
+						</li>
+						<li><a href="familystuff.html"><i class="fas fa-baby"></i>Đồ dùng gia đình</a>
+							<ul class="sub_menu">
+								<li><a href="familystuff.html">Trang trí nhà cửa</a></li>
+								<li><a href="familystuff.html">Đồ gia dụng</a></li>
+								<li><a href="familystuff.html">Đồ dùng trong nhà khác</a></li>
+								<li><a href="familystuff.html">Tủ nhựa Duy Tân</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="banner_center l-4 m-12 c-12">
+					<div class="left_top_main">
+						<input type="radio" name="thumbnail" id="id1" checked="checked">
+						<label for="id1">
+							<img src="images/baner1.png" alt="" width="50">
+						</label>
+						<img class= "big_img" src="images/baner1.png" alt="">
+						<input type="radio" name="thumbnail" id="id2" >
+						<label for="id2">
+							<img src="images/baner2.png" alt=""  width="50">
+						</label>
+						<img class= "big_img" src="images/baner2.png" alt="">
+						<input type="radio" name="thumbnail" id="id3" >
+						<label for="id3">
+							<img src="images/baner3.jpg" alt=""  width="50">
+						</label>
+						<img class= "big_img" src="images/baner3.jpg" alt="">
+						<input type="radio" name="thumbnail" id="id4" >
+						<label for="id4">
+							<img src="images/baner4.jpg" alt=""  width="50">
+						</label>
+						<img class= "big_img" src="images/baner4.jpg" alt="">
+						<input type="radio" name="thumbnail" id="id5" >
+						<label for="id5">
+							<img src="images/baner5.jpg" alt=""  width="50">
+						</label>
+						<img class= "big_img" src="images/baner5.jpg" alt="">
+						<input type="radio" name="thumbnail" id="id6" >
+						<label for="id6">
+							<img src="images/baner6.png" alt=""  width="50">
+						</label>
+						<img class= "big_img" src="images/baner6.png" alt="">
+					</div>
+				</div>
+				<div class="banner_right hide_on_mobile_tablet l-4 m-12 c-12">
+					<p>BẢNG TIN KHUYẾN MÃI</p>
+					<img src="images/me-bau-baner_right.webp" alt="">
+				</div>
+			</div>
+			<div class="main_container row">
+				<div class="l-12 m-12 c-12"><h4>CÁC SẢN PHẨM NỔI BẬT</h4></div>	
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="meiji.html">Sữa Meiji Infant Formula 800g (0-12 tháng)</a></h5>
+					<a href="meiji.html"><img src="images/meiji.webp" alt="" class="img-responsive"></a>
+					<h3>529.000₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+			
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="pediasure.html">Thực phẩm dinh dưỡng y học Abbott Pediasure 850g hương vani (1-10 tuổi)</a></h5>
+					<a href="pediasure.html"><img src="images/pediasure.webp" alt="" class="img-responsive" ></a>
+					<h3>575.000₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+			
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="glico.html">Sữa Glico Icreo số 0 800g (0-12 tháng)</a></h5>
+					<a href="glico.html"><img src="images/glico.jpg" alt="" class="img-responsive"></a>
+					<h3>595.000₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+		
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="similac.html">Sữa Similac Eye-Q số 2 900g (6-12 tháng)</a></h5>
+					<a href="similac.html"><img src="images/simalac.webp" alt="" class="img-responsive"></a>
+					<h3>529.000₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+			
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="huggies.html">Combo 2 gói Bỉm tã dán Huggies Dry size L 68 miếng (9 - 14kg)</a></h5>
+					<a href="huggies.html"><img src="images/huggies.jpg" alt="" class="img-responsive" ></a>
+					<h3>548.000₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="bobby.html">Combo 2 gói Bỉm tã quần Bobby size XL 62 miếng (12-17kg)</a></h5>
+					<a href="bobby.html"><img src="images/bobby.jpg" alt="" class="img-responsive"></a>
+					<h3>730.000₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="goon.html">Combo 3 gói Bỉm tã quần Goon Premium size L 46 miếng (9-14kg)</a></h5>
+					<a href="goon.html"><img src="images/goon.jpg" alt="" class="img-responsive"></a>
+					<h3>795.000₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="merries.html">Bỉm tã quần Merries size L 44 miếng (9-14kg)</a></h5>
+					<a href="merries.html"><img src="images/merries.jpg" alt="" class="img-responsive"></a>
+					<h3>385.000₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="ao_thun_be_trai_01.html">Đầm thun bé gái CF G129064 Tím</a></h5>
+					<a href="dam_be_gai_01.html"><img src="images/aobegai.jpg" alt="" class="img-responsive"></a>
+					<h3>249.000₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="dam_be_gai_02.html">Đầm thun bé gái CF G048010 Trắng</a></h5>
+					<a href="dam_be_gai_02.html"><img src="images/aobegai2.jpg" alt="" class="img-responsive" ></a>
+					<h3>189.000₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="ao_thun_be_trai_01.html">Áo thun bé trai phát sáng tay ngắn CF B129047 Xanh</a></h5>
+					<a href="ao_thun_be_trai_01.html"><img src="images/aobetrai2.jpg" alt="" class="img-responsive"></a>
+					<h3>159.000₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+				<div class="items l-3 m-6 c-6">
+					<h5><a href="ao_thun_be_trai_02.html">Áo thun bé trai tay ngắn CF G119028 Xám</a></h5>
+					<a href="ao_thun_be_trai_02.html"><img src="images/aothunbetrai.jpg" alt="" class="img-responsive"></a>
+					<h3>179.000₫</h3>
+					<button><a href="cart.html">Mua ngay</a></button>
+				</div>
+			</div>
+		</main>
+		<footer class="footer row">
+				<div class="info">
+					<img src="images/logoproject2.png" alt="">
+				</div>
+				<div class="iconfooter">
+					<ul>
+						<li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+						<li><a href=""><i class="fab fa-google-plus-square"></i>	</a></li>
+						<li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+					</ul>		
+				</div>
+		</footer>
+	</div>
+	<!-- End page main -->
+	<script src="js/show_nav_mobile.js"></script>
+</body>
+</html>	

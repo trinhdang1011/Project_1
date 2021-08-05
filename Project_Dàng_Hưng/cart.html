@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Giỏ hàng</title>
+	<link rel="stylesheet" href="font_awesome/css/all.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/login.css">
+	<link rel="stylesheet" href="css/cart.css">
+	<link rel="stylesheet" href="css/products.css">
+	<link rel="stylesheet" href="css/nav_mobile.css">
+	<link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+	<div class="grid wide">
+		<header class="header">
+			<div class="hotline row">
+				<div class="img_logo_phone l-12 m-12 c-12">
+					<div class="logo_mobile_tablet hide_on_pc">
+						<a href="index.html"><img class="hide_on_pc" src="images/logoproject2.png" height="40" alt=""></a>
+					</div>	
+					<div class="sdt">
+						<p><a href=""><i class="fas fa-phone-alt icon_phone_home"></i>Hotline:0962715930</a
+							></p>
+					</div>
+				</div>
+			</div>
+			<div class="logo_search_icon-top row">
+				<div class="logo_img-top l-4 m-0 c-0">
+					<a href="index.html"><img src="images/logoproject2.png" alt=""></a>
+				</div>
+				<div class="search_incon-top l-8 m-12 c-12">
+					<ul>
+						<li class="icon_danh_muc hide_on_pc"><i class="fas fa-bars " onclick="show_nav()" ></i>
+							<div class="nav_mobile" id="nav_mobile" >
+								<div class="overlay_nav_mobile"></div>
+								<div>
+									<ul>
+										<li class="close_nav"><i class="fas fa-times" onclick="close_nav()"></i></li>
+										<li><a href="index.html"><i class="fas fa-home"></i>Trang chủ</a></li>
+										<li><a href="milk.html"><i class="fas fa-baby"></i>Sữa cho bé</a></li>
+										<li><a href="diaper.html"><i class="fas fa-baby"></i>Tã cho bé</a></li>
+										<li><a href="playstuff.html"><i class="fas fa-baby"></i>Đồ chơi cho bé</a></li>
+										<li><a href="fashion.html"><i class="fas fa-baby"></i>Thời trang cho bé</a></li>
+										<li><a href="andam.html"><i class="fas fa-baby"></i>Thực phẩm ăn dặm</a></li>
+										<li><a href="mamastuff.html"><i class="fas fa-baby"></i>Đồ dùng cho mẹ</a></li>
+										<li><a href="familystuff.html"><i class="fas fa-baby"></i>Đồ dùng gia đình</a></li>
+										<li><a href="login.html"><i class="fas fa-user"></i>Đăng nhập</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="search">
+							<input type="text" placeholder="Tìm kiếm...">
+							<a href=""><i class=" icon1 fas fa-search"></i></a>
+						</li>
+						<li class="notification">
+							
+							<a href=""><span class="hide_on_mobile_tablet">Thông báo</span><i class=" icon2 far fa-bell"></i></a>
+						</li>
+						<li class="cart_icon">
+							
+							<a href="cart.html"><span class="hide_on_mobile_tablet">Giỏ hàng</span><i class=" icon2 fas fa-shopping-cart"></i></a>
+						</li>
+						<li class="login js_login hide_on_mobile_tablet" onclick="open_modal()">
+							<a href="login.html">Đăng nhập<i class=" icon2 far fa-user"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>	
+		</header>
+	
+		<div class="main_cart">
+			<div class=" row  hide_on_mobile_tablet">
+				<div class=" nav_products col l-12 m-12 c-12">
+					<div class="left_nav">
+						<p class="danhmuc"><i class="fas fa-bars "></i>DANH MỤC SẢN PHẨM</p>
+						<div class="menu_nav">
+							<ul class="menu_main_products">
+							<li><a href="milk.html"><i class="fas fa-baby"></i>Sữa cho bé</a>
+								<ul class="sub_menu_products">
+									<li><a href="milk.html">Sữa Meiji</a></li>
+									<li><a href="milk.html">Sữa Morinaga</a></li>
+									<li><a href="milk.html">Sữa Glico</a></li>
+									<li><a href="milk.html">Sữa Abbott</a></li>
+									<li><a href="milk.html">Sữa Nan</a></li>
+									<li><a href="milk.html">Sữa Aptamil</a></li>
+									<li><a href="milk.html">Sữa Enfa</a></li>
+									<li><a href="milk.html">Sữa Friso</a></li>
+								</ul>
+							</li>
+							<li><a href="andam.html"><i class="fas fa-baby"></i>Bột ăn dặm cho bé</a>
+								<ul class="sub_menu_products">
+									<li><a href="andam.html">Bột ăn dặm Gerber</a></li>
+									<li><a href="andam.html">Bột Heinz</a></li>
+									<li><a href="andam.html">Bột ăn dặm HiPP</a></li>
+									<li><a href="andam.html">Bột ăn dặm Cerelac</a></li>
+									<li><a href="andam.html">Bánh ăn dặm Pigeon</a></li>
+									<li><a href="andam.html">Bánh ăn dặm Gerber</a></li>
+								</ul>
+
+							</li>
+							<li><a href="diaper.html"><i class="fas fa-baby"></i>Bỉm tã cho bé</a>
+								<ul class="sub_menu_products">
+									<li><a href="diaper.html">Bỉm Merries - Tã Merries</a></li>
+									<li><a href="diaper.html">Bỉm Moony - Tã Moony</a></li>
+									<li><a href="diaper.html">Bỉm Huggies - Tã Huggies</a></li>
+									<li><a href="diaper.html">Bỉm Bobby - Tã Bobby</a></li>
+									<li><a href="diaper.html">Bỉm Goon - Tã Goon</a></li>
+									<li><a href="diaper.html">Bỉm Amico - Tã Amico</a></li>
+									<li><a href="diaper.html">Bỉm Unidry - Tã Unidry</a></li>
+									<li><a href="diaper.html">Bỉm Goldgi - Tã Goldgi</a></li>
+								</ul>
+							</li>
+							<li><a href="fashion.html"><i class="fas fa-baby"></i>Thời trang cho bé</a>
+								<ul class="sub_menu_products">
+									<li><a href="fashion.html">Đồ chơi khác</a></li>
+									<li><a href="fashion.html">Thời trang bé gái</a></li>
+									<li><a href="fashion.html">Thời trang bé trai</a></li>
+									<li><a href="fashion.html">Giày - Dép trẻ em</a></li>
+									<li><a href="fashion.html">Balo cho bé</a></li>
+									<li><a href="fashion.html">Phụ kiện thời trang</a></li>
+								</ul>
+							</li>
+							<li><a href="playstuff.html"><i class="fas fa-baby"></i>Đồ chơi cho bé</a>
+								<ul class="sub_menu_products">
+									<li><a href="playstuff.html">Đồ chơi cho trẻ sơ sinh</a></li>
+									<li><a href="playstuff.html">Đồ chơi thông minh</a></li>
+									<li><a href="playstuff.html">Đồ chơi xếp hình, lắp ráp</a></li>
+									<li><a href="playstuff.html">Đồ chơi vận động</a></li>
+									<li><a href="playstuff.html">Đồ chơi gỗ</a></li>
+									<li><a href="playstuff.html">Đồ chơi mô hình, điều khiển</a></li>
+									<li><a href="playstuff.html">Đồ chơi khác</a></li>
+								</ul>
+							</li>
+							<li><a href="mamastuff.html"><i class="fas fa-baby"></i>Đồ dùng cho mẹ</a>
+								<ul class="sub_menu_products">           
+									<li><a href="mamastuff.html">Sữa bà bầu</a></li>
+									<li><a href="mamastuff.html">Máy hút sữa - túi trữ sữa</a></li>
+									<li><a href="mamastuff.html">Dinh dưỡng cho mẹ</a></li>
+									<li><a href="mamastuff.html">Sữa cho người lớn</a></li>
+									<li><a href="mamastuff.html">Đồ dùng cho mẹ khác</a></li>
+									<li><a href="mamastuff.html">Thời trang cho mẹ</a></li>
+								</ul>
+							</li>
+							<li><a href="familystuff.html"><i class="fas fa-baby"></i>Đồ dùng gia đình</a>
+								<ul class="sub_menu_products">
+									<li><a href="familystuff.html">Trang trí nhà cửa</a></li>
+									<li><a href="familystuff.html">Đồ gia dụng</a></li>
+									<li><a href="familystuff.html">Đồ dùng trong nhà khác</a></li>
+									<li><a href="familystuff.html">Tủ nhựa Duy Tân</a></li>
+								</ul>
+							</li>
+							</ul>
+						</div>	
+					</div>
+					<div class="right_nav">
+						<a href=""><span>Trang chủ</span></a>
+						<i class="fas fa-chevron-right"></i>
+						<a href=""><span>Giỏ hàng</span></a>
+					</div>
+					
+				</div>
+			</div>	
+			<div class="container_cart row">
+				<div class="left_cart col l-6 m-6 c-12">
+					<h3><i class="fas fa-shopping-cart"></i>GIỎ HÀNG</h3>
+					<div>
+						<table  id="table" class="cart-items">
+							<tr id="tr">
+								<th>Hình ảnh</th>
+								<th>Tên sản phẩm</th>
+								<th>Giá</th>
+								<th>Số lượng</th>
+								<th></th>
+							</tr>
+							<tr class="cart-row">
+								<td><img src="images/meiji-infant-formula-800g-0-12-thang.jpg" width="50" alt=""></td>
+								<td class="cart-item-title">Sữa Meiji Infant Formula 800g (0-12 tháng)</td>	
+								<td class="gia" id="gia">529000</td>
+								<td class="quantity_cart cart-quantity-input"><input type="number" value="0" min="0" class="soluong" id="soluong" onchange="tinhtien()"></td>
+								<td><i class="remove_items far fa-trash-alt"></i></td>
+							</tr>
+							<tr class="cart-row">
+								<td><img src="images/glico.jpg" width="50" alt=""></td>
+								<td>Sữa Meiji Infant Formula 800g (0-12 tháng)</td>
+								<td  class="gia">500000</td>
+								<td class="quantity_cart"><input class="soluong" type="number" value="0" min="0" onchange="tinhtien()"></td>
+								<td><i class="remove_items far fa-trash-alt"></i></td>
+							</tr>
+							<tr class="cart-row">
+								<td><img src="images/glico.jpg" width="50" alt=""></td>
+								<td>Sữa Meiji Infant Formula 800g (0-12 tháng)</td>
+								<td  class="gia">400000</td>
+								<td class="quantity_cart"><input class="soluong" type="number" value="0" min="0"  onchange="tinhtien()"></td>
+								<td><i class="remove_items far fa-trash-alt"></i></td>
+							</tr>
+							<tr>
+								<th colspan="2" class="cart-quantity-input title-tong">Tổng tiền</th>
+								<th id="tongtien" class="cart-quantity-input" colspan="3" style="text-align:center; font-size: 20px">0 VNĐ</th>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="right_cart col l-6 m-6 c-12">
+					
+					<h3><i class="fas fa-truck"></i>ĐỊA CHỈ GIAO HÀNG</h3>
+					<div>
+						<p>Email</p>
+						<input type="text" placeholder="Nhập Email" id="email" onclick="hide_text_validate()">
+						<h6 class="validate" id="vali_email"></h6>
+					</div>
+					<div>
+						<p>Số điện thoại</p>
+						<input type="text" placeholder="Nhập số điện thoại" id="phone" onclick="hide_text_validate()">
+						<h6 class="validate" id="vali_phone"></h6>
+					</div>
+					<div>
+						<p>Địa chỉ giao hàng</p>
+						<input type="text" placeholder="Nhập địa chỉ" id="address"  onclick="hide_text_validate()">
+						<h6 class="validate" id="vali_address"></h6>
+					</div>
+
+					<br>
+					<button onclick="xacnhandathang()"><a id="link_page_home" href="#">Xác nhận đặt hàng</a></button>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<script src="js/show_nav_mobile.js"></script>
+	<script src="js/cart.js"></script>
+</body>
+</html>		
